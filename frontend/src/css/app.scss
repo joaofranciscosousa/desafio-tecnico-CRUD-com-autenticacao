@@ -1,0 +1,29 @@
+@import 'utils/index.scss';
+
+// app global css in SCSS form
+
+// FONT SIZE
+@for $i from 6 through 50 {
+  .fnt-size-#{$i} {
+    font-size: #{$i}px;
+  }
+}
+
+//FONT WEIGHT
+$weights: 400, 500, 600, 700;
+
+@each $weight in $weights {
+  .fnt-weight-#{$weight} {
+    font-weight: #{$weight};
+  }
+}
+
+.text-gray-10 {
+  color: $grey-10;
+}
+.text-gray-9 {
+  color: $grey-9;
+}
+.text-gray-8 {
+  color: $grey-8;
+}

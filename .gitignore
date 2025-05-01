@@ -1,0 +1,62 @@
+# Node modules
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+jspm_packages/
+
+# TypeScript
+*.tsbuildinfo
+
+# Next.js
+.next/
+out/
+
+# Svelte
+.svelte/
+
+# React
+build/
+*.pnp.*
+
+# Testing
+coverage/
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# dotenv environment variables
+.env
+.env.local
+.env.*.local
+
+# Build output
+dist/
+build/
+
+# Serverless directories
+.serverless/
+
+# Docker
+.docker/
+
+# Tye (Microsoft's experimental tool)
+.tye/
+
+# Azure Pipelines
+.azure-pipelines/
+
+.early.coverage
